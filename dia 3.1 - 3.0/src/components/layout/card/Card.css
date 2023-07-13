@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nome{
+    background-color: black;
+    position: relative;
+    top: 30px;
+    color: white;
+    padding: 8px 34px;
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 35px 65px;
+    border-radius: 10px;
+    background-color: #e98614;
+    max-width: 270px;
+    max-height: 250px;
+    color: white;
+    
+}

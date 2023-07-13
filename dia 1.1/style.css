@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Magra', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#add-squad{
+    background: #993399;
+    color: white;
+    font-family: 'Magra', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-size: 36px;
+    border: none;
+    padding: 20px 84px;
+}
+
+#add-squad:hover{
+   cursor: pointer;
+   background: #b947b9;
+}
+
+#add-squad:active{
+    background: #812d81;
+}

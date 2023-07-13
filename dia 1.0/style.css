@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Magra', sans-serif;
+}
+
+.box-purple{
+    height: 573px;
+    width: 564px;
+    color: white;
+    background-color: #993399;
+}
+
+.box-purple h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.box-purple p{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.titulo-box-purple{
+    display: flex;
+    padding: 20px;
+    border-bottom: solid 3px white;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-box-purple{
+    padding: 26px 30px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dia 2.1</title>
+</head>
+<body>
+    <main>
+        <h1>Serra Calculator</h1>
+        <div class="all-boxs">
+            <div class="box">
+                <p>Soma</p>
+                <div class="box-inputs">
+                    <div class="input">
+                        <p>Numero 1</p>
+                        <input type="number" id="num1sum" onchange="soma()">
+                    </div>
+                    <div class="input">
+                        <p>Numero 2</p>
+                        <input type="number" id="num2sum" onchange="soma()">
+                    </div>
+                    <div class="input">
+                        <p>Resultado</p>
+                        <input type="number" disabled="" id="resultsum">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Subtração</p>
+                <div class="box-inputs">
+                    <div class="input">
+                        <p>Numero 1</p>
+                        <input type="number" id="num1sub"onchange="sub()">
+                    </div>
+                    <div class="input">
+                        <p>Numero 2</p>
+                        <input type="number" id="num2sub"onchange="sub()">
+                    </div>
+                    <div class="input">
+                        <p>Resultado</p>
+                        <input type="number" disabled="" id="resultsub">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Multiplicação</p>
+                <div class="box-inputs">
+                    <div class="input">
+                        <p>Numero 1</p>
+                        <input type="number" id="num1mult" onchange="mult()">
+                    </div>
+                    <div class="input">
+                        <p>Numero 2</p>
+                        <input type="number" id="num2mult" onchange="mult()">
+                    </div>
+                    <div class="input">
+                        <p>Resultado</p>
+                        <input type="number" disabled="" id="resultmult">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Divisão</p>
+                <div class="box-inputs">
+                    <div class="input">
+                        <p>Numero 1</p>
+                        <input type="number" id="num1div" onchange="div()">
+                    </div>
+                    <div class="input">
+                        <p>Numero 2</p>
+                        <input type="number" id="num2div" onchange="div()">
+                    </div>
+                    <div class="input">
+                        <p>Resultado</p>
+                        <input type="number" disabled="" id="resultdiv">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

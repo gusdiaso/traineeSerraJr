@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    height: 82vh;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards,
+.ctrCard{
+    background-color: #e98614;
+    max-width:500px;
+    width: 50vw;
+    color: white;
+}
+
+.cards{
+    padding: 40px 40px;
+}
+
+.cards p{
+    margin-bottom: 20px;
+}
+
+.ctrCard{
+    padding: 25px 20px;
+}
+
+.ctrCard:hover{
+    cursor: pointer;
+}

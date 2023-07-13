@@ -1,0 +1,14 @@
+.footer{
+    height: 6vh;
+    background-color: #A50010;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
